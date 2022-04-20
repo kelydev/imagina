@@ -1,0 +1,9 @@
+.body {
+    margin: 0px;
+}
+
+.main {
+    padding: 74px 0px;
+    background: linear-gradient(rgb(40, 42, 53, 0.90),rgb(40, 42, 53, 0.90)),url("../img/fondo.jpg");
+    background-size: cover;
+}
