@@ -1,9 +1,91 @@
 .body {
     margin: 0px;
+    font-family: 'Cardo', serif;
 }
 
 .main {
-    padding: 74px 0px;
-    background: linear-gradient(rgb(40, 42, 53, 0.90),rgb(40, 42, 53, 0.90)),url("../img/fondo.jpg");
+    padding: 25px 0px 116px;
+    /*background: linear-gradient(rgba(13, 0, 0, 0.62),rgba(13, 0, 0, 0.62)),url("../img/fondo.jpg");*/
+    background: linear-gradient(rgba(13, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("../img/fondo.jpg");
     background-size: cover;
+    height: 78vh;
+    background-position: 45%;
+}
+
+.header {
+
+}
+
+.nav {
+   display: flex; 
+   justify-content: space-around;
+   align-items: center;
+}
+.nav-div {
+    width: 105px;
+}
+
+.nav-list {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-social {
+    width: 105px;
+}
+
+.nav-social__icon{
+    padding-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 0px 16px;
+    list-style: none;
+    
+}
+
+.nav-item__logo {
+    padding: 0px 16px;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+/**/
+.home {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+ 
+}
+.home__title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*Vertical Line*/
+.acerca-de {
+    
+}
+.vertical-line {
+    background-color: #ee7f4b;
+    /*position: relative;*/
+    z-index: 9;
+    width: 1px;
+    height: 150px;
+    margin: -50px auto 20px;
+    border: none;
 }
