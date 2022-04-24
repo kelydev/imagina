@@ -85,7 +85,7 @@
     /*position: relative;*/
     z-index: 9;
     width: 1px;
-    height: 150px;
+    height: 130px;
     margin: -50px auto 20px;
     border: none;
 }
@@ -97,6 +97,7 @@
     font-size: 35px;
     color: #2F3439;
     text-align: center;
+    font-weight: 100;
 }
 
 .guion {
@@ -104,17 +105,16 @@
     border: none;
     width: 100px;
     height: 2.59px;
-    margin-bottom: 38px;
+    margin-bottom: 60px;
 }
 
 .acerca-de__container {
     display: flex;
-    padding: 30px 200px;
+    padding: 10px 200px;
 }
 
 .acerca-de__img {
     width: 50%;
-    /*background: url(/img/equipo.PNG);*/
 }
 
 .acerca-de__description {
@@ -124,4 +124,89 @@
     line-height: 32px;
     text-align: justify;
     color: #2F3439;
+}
+
+/*Servicios*/
+.servicios {
+    padding: 10px 190px 50px;
+}
+
+.servicios__title {
+    padding: 0px 0px 3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #2F3439;
+    text-align: center;
+    font-weight: 100;
+}
+
+.servicios-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea';
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.servicios-container__bodas {
+    grid-area: myArea;
+    padding: 0px;
+    border: none;
+    position: relative;
+}
+.servicios-container__bodas--img {
+    width: 100%;
+    margin: 0px;
+}
+
+.servicios-container__texto {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    border-bottom: 2px solid #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.servicios-container__corporativos {
+    padding-right: 2px;
+    position: relative;  
+}
+.servicios-container__corporativos--img {
+    width: 100%;
+    height: 350px;
+}
+
+.servicios-container__textoc {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    border-bottom: 2px solid #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.servicios-container__sociales {
+    padding-left: 2px;
+    position: relative;
+}
+
+.servicios-container__sociales--img {
+    width: 100%;
+    height: 350px;
+}
+
+.servicios-container__textos {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    border-bottom: 2px solid #ffffff;
+    transform: translate(-50%, -50%);
 }
