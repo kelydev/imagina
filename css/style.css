@@ -76,9 +76,9 @@
     font-style: italic;
 }
 
-/*Vertical Line*/
+/*acerca de*/
 .acerca-de {
-    
+    padding-bottom: 50px;
 }
 .vertical-line {
     background-color: #ee7f4b;
@@ -88,4 +88,40 @@
     height: 150px;
     margin: -50px auto 20px;
     border: none;
+}
+
+.acerca-de__title {
+    padding: 0px 0px 3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #2F3439;
+    text-align: center;
+}
+
+.guion {
+    background-color:rgba(243, 170, 135, 0.74);
+    border: none;
+    width: 100px;
+    height: 2.59px;
+    margin-bottom: 38px;
+}
+
+.acerca-de__container {
+    display: flex;
+    padding: 30px 200px;
+}
+
+.acerca-de__img {
+    width: 50%;
+    /*background: url(/img/equipo.PNG);*/
+}
+
+.acerca-de__description {
+    padding-left: 40px;
+    width: 45%;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: justify;
+    color: #2F3439;
 }
