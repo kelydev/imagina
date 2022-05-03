@@ -274,28 +274,43 @@
 .galeria-container__item10 {
     grid-area: 4 / 3 / 5 / 4;
 }
- /*Contactanos*/
 
- .contactanos {
+/*Contactanos*/
+
+.contactanos {
+    background-color: #EFECEF;
     display: flex;
-    justify-content: center;
-    padding: 10px 150px 50px;
- }
+    padding: 70px 150px 50px;
+}
 
- .contactanos-container {
+.guions {
+    background-color:rgba(243, 170, 135, 0.74);
+    border: none;
+    width: 100px;
+    height: 2.59px;
+    margin-bottom: 30px;
+}
+
+.ubicacion {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.contactanos-container {
     
- }
+}
 
- form {
+form {
     padding: 20px;
- }
+}
  
- .form-input {
+.form-input {
     display: flex;
- }
+}
 
 .form-input__text {
-    width: 50%;
+    width: 300px;
+    width: 100%;
     padding: 12px 20px;
     margin: 15px;
     display: inline-block;
@@ -305,15 +320,41 @@
 }
 
 .form-input__text-area {
-    width: 100%;
+    width: 600px;
+    max-width: 100%;
     padding: 12px 20px;
     margin: 8px;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
-.ubicacion {
-     padding: 100px 0px 20px 50px;
- }
+.right {
+    float:right;
+}
+
+.btn__enviar {
+    text-align: right;
+   
+}
+
+.btn-enviar {
+    background-color: rgba(243, 170, 135, 0.74);
+    border-radius: none;
+    border: none;
+    padding: 20px 40px;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #EFECEF;
+}
+
+.footer-container {
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.linea {
+    color: #cfcfcf;
+}
